@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 let tags = {}
 const defaultMenu = {
   before: `
-*_乂 Simple WhatsApp - bot [ beta ✔ ]_*
+*_𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒_*
 
 
 *_あ Library : [ Baileys-MD ]_*
@@ -112,9 +112,9 @@ const defaultMenu = {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-const vi = ['https://telegra.ph/file/067b2cb3312837533239c.mp4',
-'https://telegra.ph/file/e38881701692c74484a17.mp4',
-'https://telegra.ph/file/de776d34ef058b7d2ec12.mp4', 'https://telegra.ph/file/bc82653506c301b40679c.mp4',     'https://telegra.ph/file/7f10b3624991bbcee9ded.mp4', 'https://telegra.ph/file/51aa9701839dcc29066e9.mp4',     'https://telegra.ph/file/4f26132ac0296a34a45a8.mp4']
+const vi = ['https://telegra.ph/file/201a6870a50e6751a3c40.mp4',
+'https://telegra.ph/file/7f187cec45fb7634ff823.mp4',
+'https://telegra.ph/file/d41fbf209734c60fdda23.mp4', 'https://telegra.ph/file/76d2131b3940212c8992c.mp4',     'https://telegra.ph/file/71fa5114b24771cfa7320.mp4', 'https://telegra.ph/file/8d3d02ba541e508ccd19e.mp4',     'https://telegra.ph/file/beafa0292b1854f03f7ee.mp4']
 
 var vid = vi[Math.floor(Math.random() * (vi.length))]
 
@@ -128,7 +128,7 @@ let ppl = await( await conn.profilePictureUrl(m.sender, 'image').catch(() => 'ht
 
     let ppb = await( await conn.profilePictureUrl(conn.user.jid, 'image').catch(() => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'))
     
-    await m.reply('_Ｌｏａｄｉｎｇ．．．_')
+    await m.reply('_loading..._')
  await conn.relayMessage(m.chat, { reactionMessage: { key: m.key, text: '✅'  }}, { messageId: m.key.id })
 
 //Payment Menu
@@ -145,7 +145,7 @@ let ppl = await( await conn.profilePictureUrl(m.sender, 'image').catch(() => 'ht
       showAdAttribution: true
       }}}}}}, {})*/
  let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-let fotonya = 'https://telegra.ph/file/d43f196dc3417ca4c5338.jpg'
+let fotonya = 'https://telegra.ph/file/42fd495d42729e8b1c01c.jpg'
  conn.sendMessage(m.chat, { image: { url: fotonya  }, caption: text.trim()}, { quoted: fkon })
   } catch (e) {
     m.reply('An error occurred')
