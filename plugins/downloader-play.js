@@ -53,7 +53,7 @@ let handler = async (m, {
                         mediaUrl: url,
                         renderLargerThumbnail: true,
                         showAdAttribution: true,
-                        sourceId: "lua ser ofc",
+                        sourceId: "𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒",
                         sourceType: "PDF",
                         previewType: "PDF",
                         sourceUrl: url,
