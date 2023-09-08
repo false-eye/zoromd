@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.instagram.com/p/ByxKbUSnubS/?utm_source=ig_web_copy_link`
-    await m.reply(`Ｌｏａｄｉｎｇ．．．`)
+    await m.reply(`loading...`)
     let res = await instagram(args[0])
     if (res.error) return m.reply(`${res.message}`);
     for (let urRRl of res) {
