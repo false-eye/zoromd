@@ -5,7 +5,7 @@ import moment from 'moment-timezone'
 let handler = m => m
 handler.all = async function (m) {
     let name = await conn.getName(m.sender) 
-	let pp = 'https://telegra.ph/file/fc5e41b96c7a809b150c1.png'
+	let pp = 'https://telegra.ph/file/7439ee8ee98b8aa1367c8.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -34,13 +34,13 @@ handler.all = async function (m) {
 
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/luaserofc",
+            mediaUrl: "https://instagram.com/false_eye",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/luaserofc", 
-            title: 'Simple Bot Esm',
+            description: "https://instagram.com/false_eye", 
+            title: '𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒',
             body: me,
             thumbnailUrl: pp,
-            sourceUrl: 'http://s.id/luaxyz'
+            sourceUrl: 'https://s.id/false_eye'
     }
     } }
 		// Fake 
@@ -55,7 +55,7 @@ handler.all = async function (m) {
             message: { 
                "audioMessage": {
                         "mimetype":"audio/ogg; codecs=opus",
-                        "seconds": "999999999999",
+                        "seconds": "999",
                         "ptt": "true"
                                }
                              } 
@@ -105,9 +105,9 @@ handler.all = async function (m) {
                                "jpegThumbnail": fs.readFileSync('./me.png') //Gambarnye
                            },
                            "title": me, //Kasih namalu 
-                           "description": "Simple Bot Esm", 
+                           "description": "𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒", 
                            "currencyCode": "USD",
-                           "priceAmount1000": "20000000",
+                           "priceAmount1000": "999",
                            "retailerId": "Ghost",
                            "productImageCount": 1
                        },
@@ -155,7 +155,7 @@ handler.all = async function (m) {
                         "videoMessage": { 
                         "title": me,
                         "h": `Hmm`,
-                        'seconds': '999999999', 
+                        'seconds': '999', 
                         'gifPlayback': 'true', 
                         'caption': me,
                         'jpegThumbnail': fs.readFileSync('./me.png')
