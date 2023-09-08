@@ -5,8 +5,8 @@ let pp = await conn.profilePictureUrl(who).catch(_ => thumbnailUrl.getRandom())
 let name = await conn.getName(who)
 
   const sentMsg = await conn.sendContactArray(m.chat, [
-    [nomorown, `${await conn.getName(nomorown + '@s.whatsapp.net')}`, `💌 Developer Bot `, `Not Famous`, `sousakura666@gmail.com`, `🇯🇵 japan`, `📍 https://xxirfanx.github.io`, `👤 Owner zoro Bot`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🎈 Whatsapp Bot`, `📵 Dont Spam`, `Nothing`, `🇯🇵 japan`, `📍 https://github.com/xxirfanx/zoromd`, `Just a normal bot that sometimes has an error ☺`]
+    [nomorown, `${await conn.getName(nomorown + '@s.whatsapp.net')}`, `💌 Developer Bot `, `Not Famous`, `aslampnly5@gmail.com`, `🇯🇵 japan`, `📍 https://instagram.com/false_eye`, `👤 𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🎈 Whatsapp Bot`, `📵 Dont Spam`, `Nothing`, `🇯🇵 japan`, `📍 https://github.com/false-eye/zoromd`, `Just a normal bot that sometimes has an error ☺`]
   ], fkontak)
   await conn.reply(m.chat,`Hello @${m.sender.split(`@`)[0]} Thats my owner, dont spam or i will block u`, sentMsg, {
                 mentions: [m.sender]
