@@ -4,13 +4,13 @@ import { watchFile, unwatchFile, readFileSync } from 'fs'
 
 global.owner = 
  [
-  ['+91 6235 050 956', '𝖑𝖚𝖆 𝖘𝖊𝖗 𝖔𝖋𝖈', true]
+  ['+91 9539901834', ' 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒', true]
 ]
 // Put your number here
 // [number, he creator/owner?, he developer?]
 
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.mods = ['919539901834'] // Want some help?
+global.prems = ['919539901834'] // Premium user has unlimited limit
 
 // api key here okay
 global.xyro = 'LyrK9JMI7N' // https://api.xyroinee.xyz free limit unlimited
@@ -27,29 +27,29 @@ global.APIKeys = { // APIKey Here
 }
 
  global.thumbnailUrl = [
-  'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
-  'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
-  'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
-  'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
-  'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
+  'https://telegra.ph/file/96f83e95d632f391cc9e7.jpg', 'https://telegra.ph/file/6d8b0e4f9ff01415462d1.jpg',
+  'https://telegra.ph/file/cd2f9a052be9ec05809af.jpg', 'https://telegra.ph/file/1e3abb2e79963325e4f9d.jpg',
+  'https://telegra.ph/file/4e65b1070a212bac14cd0.jpg', 'https://telegra.ph/file/0a188ab9ffdb87c233dee.jpg',
+  'https://telegra.ph/file/4aa0d2b8d49062304c9f2.jpg', 'https://telegra.ph/file/4d948d098c465c6d9a312.jpg',
+  'https://telegra.ph/file/cabeb1f092249ff55604a.jpg', 'https://telegra.ph/file/e1ead2e5c46f042701175.jpg'
 ]
 
 // Sticker WM
-global.packname = `「 Cʀᴇᴀᴛᴇᴅ Bʏ 𝖑𝖚𝖆 𝖘𝖊𝖗 𝖔𝖋𝖈 」`
-global.author = ''
+global.packname = `9ine9ine9ine`
+global.author = ' 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒'
 global.thumb = readFileSync('./me.png')
 global.thumb2 = readFileSync('./me2.jpeg')
 global.multiplier = 69 // The higher, The harder levelup
 
 //Text here
-global.me = 'Cʀᴇᴀᴛᴇᴅ Bʏ 𝖑𝖚𝖆 𝖘𝖊𝖗 𝖔𝖋𝖈 - 2023'
-global.bott = 'zoro md'
-global.nomorown = '916235050956'
+global.me = ' 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒'
+global.bott = '𝑤𝑟𝑙𝑑 𝑜𝑛 𝑗𝑢𝑖𝑐𝑒'
+global.nomorown = '919539901834'
 // owner put this creator.js
 global.str = '-------------'
 global.l = '「'
 global.r = '」'
-global.wait = '```「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ...```'
+global.wait = '```ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ...```'
 global.eror = '```404 ᴇʀʀᴏʀ```'
 
 global.rpg = {
